@@ -47,6 +47,9 @@
 <OrderItemShipGroupAssoc orderId="SHUBHAM0003" orderItemSeqId="00001" shipGroupSeqId="00001" quantity="20.0"/>
 <OrderItemShipGrpInvRes orderId="SHUBHAM0003" shipGroupSeqId="00001" orderItemSeqId="00001" inventoryItemId="9000" reserveOrderEnumId="INVRO_FIFO_REC" quantity="20.0" quantityNotAvailable="0.0" reservedDatetime="2022-01-01 16:49:31.474" createdDatetime="2022-01-01 16:49:31.474" promisedDatetime="2022-01-01 16:49:27.392" priority="2"/>
 
-<PaymentMethodType paymentMethodTypeId="CASH" defaultGlAccountId="122000"/>
+<PaymentMethodType paymentMethodTypeId="EXT_COD" defaultGlAccountId="122000"/>
+<PaymentMethod paymentMethodId="2022" paymentMethodTypeId="EXT_COD" partyId="SHUBHAM1003" fromDate="2022-01-01 00:00:00.000"/>
+
+
 
 
