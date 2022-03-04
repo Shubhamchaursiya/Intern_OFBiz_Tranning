@@ -1,0 +1,10 @@
+<OrderHeader orderId="SHU103" orderTypeId="SALES_ORDER" orderName="Shubham Sales Order 2" salesChannelEnumId="WEB_SALES_CHANNEL" orderDate="2022-02-16 16:49:27.392" entryDate="2022-02-16 16:49:27.392" priority="2" statusId="ORDER_COMPLETED" createdBy="admin" currencyUom="USD" productStoreId="9000" remainingSubTotal="38.40" grandTotal="50.85"  invoicePerShipment="Y"/>
+
+<OrderItem orderId="SHU103" orderItemSeqId="00001" orderItemTypeId="PRODUCT_ORDER_ITEM" productId="GZ-2644" quantity="2.0" statusId="ORDER_COMPLETED"/>
+
+<OrderRole orderId="SHU103" partyId="SHU5000" roleTypeId="BILL_TO_CUSTOMER"/>
+<OrderRole orderId="SHU103" partyId="SHU5000" roleTypeId="PLACING_CUSTOMER"/>
+<OrderRole orderId="SHU103" partyId="SHU5000" roleTypeId="SHIP_TO_CUSTOMER"/>
+
+<OrderContactMech orderId="SHU103" contactMechPurposeTypeId="BILLING_LOCATION" contactMechId="BILL5000"/>
+<OrderContactMech orderId="SHU103" contactMechPurposeTypeId="SHIPPING_LOCATION" contactMechId="SHIP5000"/>
