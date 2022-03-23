@@ -1,0 +1,40 @@
+<ProductCategory productCategoryId="Children" productCategoryTypeId="CATALOG_CATEGORY"/>
+ 
+<Product productId="C_1" productTypeId="FINISHED_GOOD" productName="ChildrenShoes" internalName="ChildrenShoes" description="ChildrenShoes" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2004-08-20 12:50:54.794" createdByUserLogin="admin"/>
+
+<Product productId="C_2" productTypeId="FINISHED_GOOD" productName="ChildrenShoes" internalName="ChildrenShoes" description="ChildrenShoes" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2022-03-23 12:50:54.794" createdByUserLogin="admin"/>
+
+<ProductFeatureCategory productFeatureCategoryId="CShoe1000" description="Shoes"/>
+<ProductFeature productFeatureId="CShoe1001" productFeatureTypeId="SIZE" productFeatureCategoryId="CShoe1000" description="2 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="CShoe1002" productFeatureTypeId="SIZE" productFeatureCategoryId="CShoe1000" description="3 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="CShoe1003" productFeatureTypeId="SIZE" productFeatureCategoryId="CShoe1000" description="4 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="CShoe1004" productFeatureTypeId="SIZE" productFeatureCategoryId="CShoe1000" description="5 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="CShoe1005" productFeatureTypeId="COLOR" productFeatureCategoryId="CShoe1000" description="White" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="CShoe1006" productFeatureTypeId="COLOR" productFeatureCategoryId="CShoe1000" description="Brown" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="CShoe1007" productFeatureTypeId="COLOR" productFeatureCategoryId="CShoe1000" description="Red" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="CShoe1008" productFeatureTypeId="COLOR" productFeatureCategoryId="CShoe1000" description="Black" defaultSequenceNum="1"/>
+
+<ProductFeatureAppl productId="C_1" productFeatureId="CShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_1" productFeatureId="CShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_1" productFeatureId="CShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_1" productFeatureId="CShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductFeatureAppl productId="C_1" productFeatureId="CShoe1005" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_1" productFeatureId="CShoe1006" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductFeatureAppl productId="C_2" productFeatureId="CShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_2" productFeatureId="CShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_2" productFeatureId="CShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_2" productFeatureId="CShoe1007" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="C_2" productFeatureId="CShoe1008" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+
+<ProductPrice productId="C_1" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+<ProductPrice productId="C_2" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+
+
+
+<ProductCategoryMember productCategoryId="Children" productId="C_1" fromDate="2022-03-23 15:09:47.338"/>
+<ProductCategoryMember productCategoryId="Children" productId="C_2" fromDate="2022-03-23 15:09:47.338"/>
+    
+
