@@ -1,0 +1,85 @@
+<ProductCategory productCategoryId="Men_X" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategory productCategoryId="MSports" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="Men_X"/>
+<ProductCategory productCategoryId="MFormal" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="Men_X"/>
+<ProductCategory productCategoryId="MParty" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="Men_X"/>
+ 
+ 
+ <Product productId="MS_1" productTypeId="FINISHED_GOOD" productName="MSportShoe" internalName="SportShoe" description="SportShoe" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2004-08-20 12:50:54.794" createdByUserLogin="admin"/>
+
+<Product productId="MS_2" productTypeId="FINISHED_GOOD" productName="MSportShoe" internalName="SportShoe" description="SportShoe" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2022-03-23 12:50:54.794" createdByUserLogin="admin"/>
+
+ <Product productId="MF_1" productTypeId="FINISHED_GOOD" productName="MFormalShoes" internalName="FormalShoes" description="FormalShoes" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2004-08-20 12:50:54.794" createdByUserLogin="admin"/>
+
+<Product productId="MF_2" productTypeId="FINISHED_GOOD" productName="MFormalShoes" internalName="FormalShoes" description="FormalShoes" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2022-03-23 12:50:54.794" createdByUserLogin="admin"/>
+
+<Product productId="MP_1" productTypeId="FINISHED_GOOD" productName="MPartyShoes" internalName="PartyShoes" description="PartyShoes" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2004-08-20 12:50:54.794" createdByUserLogin="admin"/>
+
+<Product productId="MP_2" productTypeId="FINISHED_GOOD" productName="MPartyShoes" internalName="PartyShoes" description="PartyShoes" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2022-03-23 12:50:54.794" createdByUserLogin="admin"/>
+
+<ProductFeatureCategory productFeatureCategoryId="MShoe1000" description="Shoes"/>
+<ProductFeature productFeatureId="MShoe1001" productFeatureTypeId="SIZE" productFeatureCategoryId="MShoe1000" description="7 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="MShoe1002" productFeatureTypeId="SIZE" productFeatureCategoryId="MShoe1000" description="8 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="MShoe1003" productFeatureTypeId="SIZE" productFeatureCategoryId="MShoe1000" description="9 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="MShoe1004" productFeatureTypeId="SIZE" productFeatureCategoryId="MShoe1000" description="10 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="MShoe1005" productFeatureTypeId="COLOR" productFeatureCategoryId="MShoe1000" description="White" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="MShoe1006" productFeatureTypeId="COLOR" productFeatureCategoryId="MShoe1000" description="Brown" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="MShoe1007" productFeatureTypeId="COLOR" productFeatureCategoryId="MShoe1000" description="Red" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="MShoe1008" productFeatureTypeId="COLOR" productFeatureCategoryId="MShoe1000" description="Black" defaultSequenceNum="1"/>
+
+<ProductFeatureAppl productId="MS_1" productFeatureId="MShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_1" productFeatureId="MShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_1" productFeatureId="MShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_1" productFeatureId="MShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_1" productFeatureId="MShoe1005" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_1" productFeatureId="MShoe1006" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductFeatureAppl productId="MS_2" productFeatureId="MShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_2" productFeatureId="MShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_2" productFeatureId="MShoe1007" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MS_2" productFeatureId="MShoe1008" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductFeatureAppl productId="MF_2" productFeatureId="MShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_2" productFeatureId="MShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_2" productFeatureId="MShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_2" productFeatureId="MShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_2" productFeatureId="MShoe1005" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_2" productFeatureId="MShoe1006" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductFeatureAppl productId="MF_1" productFeatureId="MShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_1" productFeatureId="MShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_1" productFeatureId="MShoe1007" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MF_1" productFeatureId="MShoe1008" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductFeatureAppl productId="MP_1" productFeatureId="MShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_1" productFeatureId="MShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_1" productFeatureId="MShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_1" productFeatureId="MShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_1" productFeatureId="MShoe1005" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_1" productFeatureId="MShoe1006" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductFeatureAppl productId="MP_2" productFeatureId="MShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_2" productFeatureId="MShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_2" productFeatureId="MShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_2" productFeatureId="MShoe1004" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_2" productFeatureId="MShoe1007" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="MP_2" productFeatureId="MShoe1008" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+
+<ProductPrice productId="MS_1" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+<ProductPrice productId="MS_2" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+
+<ProductPrice productId="MF_1" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+<ProductPrice productId="MF_2" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+
+<ProductPrice productId="MP_1" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+<ProductPrice productId="MP_2" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
+
+
+    <ProductCategoryMember productCategoryId="MSports" productId="MS_1" fromDate="2022-03-23 15:09:47.338"/>
+    <ProductCategoryMember productCategoryId="MSports" productId="MS_2" fromDate="2022-03-23 15:09:47.338"/>
+    
+    <ProductCategoryMember productCategoryId="MFormal" productId="MF_1" fromDate="2022-03-23 15:09:47.338"/>
+    <ProductCategoryMember productCategoryId="MFormal" productId="MF_2" fromDate="2022-03-23 15:09:47.338"/>
+    
+    <ProductCategoryMember productCategoryId="MParty" productId="MP_1" fromDate="2022-03-23 15:09:47.338"/>
+    <ProductCategoryMember productCategoryId="MParty" productId="MP_2" fromDate="2022-03-23 15:09:47.338"/>
+    
