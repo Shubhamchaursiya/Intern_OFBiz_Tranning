@@ -102,13 +102,30 @@
     <ProductPromoCode productPromoCodeId="1000" productPromoId="1000" userEntered="Y" requireEmailOrParty="N" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
     <ProductPromoRule productPromoId="1000" productPromoRuleId="01" ruleName="Test Special Promo Price"/>
     <ProductPromoAction productPromoId="1000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoActionEnumId="PROMO_PROD_SPPRC" orderAdjustmentTypeId="PROMOTION_ADJUSTMENT"/>
-    <ProductPromoCategory productPromoId="1000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productCategoryId="PROMOTIONS" andGroupId="_NA_" productPromoApplEnumId="PPPA_INCLUDE" includeSubCategories="N"/>
+    <ProductPromoCategory productPromoId="1000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productCategoryId="MSports" andGroupId="_NA_" productPromoApplEnumId="PPPA_INCLUDE" includeSubCategories="N"/>
     <ProductStorePromoAppl productStoreId="9000" productPromoId="1000" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
 
         <ProductPromoProduct productPromoId="1000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="MS_1" productPromoApplEnumId="PPPA_INCLUDE"/>
         
-        <ProductPromoProduct productPromoId="1000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="MF_2" productPromoApplEnumId="PPPA_INCLUDE"/>
-         <ProductPromoProduct productPromoId="1000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="MP_1" productPromoApplEnumId="PPPA_INCLUDE"/>
+        <ProductPromo productPromoId="1001" promoName="Test Products for Special Promo Price" promoText="With special code [1001] get products in the Featured Products category for their special promotion price." userEntered="Y" showToCustomer="Y" requireCode="Y" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+     
+    <ProductPromoCode productPromoCodeId="1001" productPromoId="1001" userEntered="Y" requireEmailOrParty="N" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+    <ProductPromoRule productPromoId="1001" productPromoRuleId="01" ruleName="Test Special Promo Price"/>
+    <ProductPromoAction productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoActionEnumId="PROMO_PROD_SPPRC" orderAdjustmentTypeId="PROMOTION_ADJUSTMENT"/>
+    <ProductPromoCategory productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productCategoryId="MFormal" andGroupId="_NA_" productPromoApplEnumId="PPPA_INCLUDE" includeSubCategories="N"/>
+    <ProductStorePromoAppl productStoreId="9000" productPromoId="1001" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
+
+        <ProductPromoProduct productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="MF_2" productPromoApplEnumId="PPPA_INCLUDE"/>
+        
+        <ProductPromo productPromoId="1002" promoName="Test Products for Special Promo Price" promoText="With special code [1002] get products in the Featured Products category for their special promotion price." userEntered="Y" showToCustomer="Y" requireCode="Y" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+     
+    <ProductPromoCode productPromoCodeId="1002" productPromoId="1002" userEntered="Y" requireEmailOrParty="N" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+    <ProductPromoRule productPromoId="1002" productPromoRuleId="01" ruleName="Test Special Promo Price"/>
+    <ProductPromoAction productPromoId="1002" productPromoRuleId="01" productPromoActionSeqId="01" productPromoActionEnumId="PROMO_PROD_SPPRC" orderAdjustmentTypeId="PROMOTION_ADJUSTMENT"/>
+    <ProductPromoCategory productPromoId="1002" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productCategoryId="MParty" andGroupId="_NA_" productPromoApplEnumId="PPPA_INCLUDE" includeSubCategories="N"/>
+    <ProductStorePromoAppl productStoreId="9000" productPromoId="1002" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
+
+         <ProductPromoProduct productPromoId="1002" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="MP_1" productPromoApplEnumId="PPPA_INCLUDE"/>
 
 
          
