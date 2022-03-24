@@ -1,8 +1,23 @@
+<ProdCatalog prodCatalogId="WShoeDemoCatalog" catalogName="Demo Catalog" useQuickAdd="Y"/>
+<ProductStoreCatalog productStoreId="9000" prodCatalogId="WShoeDemoCatalog" fromDate="2022-03-24 12:00:00.0" sequenceNum="1"/>
+
 <ProductCategory productCategoryId="Women_X" productCategoryTypeId="CATALOG_CATEGORY"/>
 <ProductCategory productCategoryId="WSports" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="Men_X"/>
 <ProductCategory productCategoryId="WFormal" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="Men_X"/>
 <ProductCategory productCategoryId="WParty" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="Men_X"/>
  
+ <ProdCatalogCategory prodCatalogId="WShoeDemoCatalog" productCategoryId="Women_X" fromDate="2022-03-24 12:00:00.0"
+                         sequenceNum="1" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT"/>
+    
+    <ProdCatalogCategory prodCatalogId="WShoeDemoCatalog" productCategoryId="WSports" fromDate="2022-03-24 12:00:00.0"
+                         sequenceNum="1" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT"/>
+    
+    <ProdCatalogCategory prodCatalogId="WShoeDemoCatalog" productCategoryId="WFormal" fromDate="2022-03-24 12:00:00.0"
+                         sequenceNum="1" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT"/>
+    
+    <ProdCatalogCategory prodCatalogId="WShoeDemoCatalog" productCategoryId="WParty" fromDate="2022-03-24 12:00:00.0"
+                         sequenceNum="1" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT"/>
+    
  
 <Product productId="WS_1" productTypeId="FINISHED_GOOD" productName="WSportShoe" internalName="SportShoe" description="SportShoe" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2004-08-20 12:50:54.794" createdByUserLogin="admin"/>
 
@@ -17,49 +32,49 @@
 <Product productId="WP_2" productTypeId="FINISHED_GOOD" productName="WPartyShoes" internalName="PartyShoes" description="PartyShoes" isVirtual="Y" isVariant="N" inventoryItemTypeId="NON_SERIAL_INV_ITEM" createdDate="2022-03-23 12:50:54.794" createdByUserLogin="admin"/>
 
 <ProductFeatureCategory productFeatureCategoryId="WShoe1000" description="Shoes"/>
-<ProductFeature productFeatureId="WShoe1001" productFeatureTypeId="SIZE" productFeatureCategoryId="WShoe1000" description="7 inch" defaultSequenceNum="1"/>
-<ProductFeature productFeatureId="WShoe1002" productFeatureTypeId="SIZE" productFeatureCategoryId="WShoe1000" description="8 inch" defaultSequenceNum="1"/>
-<ProductFeature productFeatureId="WShoe1003" productFeatureTypeId="SIZE" productFeatureCategoryId="WShoe1000" description="9 inch" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="WShoe1001" productFeatureTypeId="SIZE" productFeatureCategoryId="WShoe1000" description="7" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="WShoe1002" productFeatureTypeId="SIZE" productFeatureCategoryId="WShoe1000" description="8" defaultSequenceNum="1"/>
+<ProductFeature productFeatureId="WShoe1003" productFeatureTypeId="SIZE" productFeatureCategoryId="WShoe1000" description="9" defaultSequenceNum="1"/>
 
 <ProductFeature productFeatureId="WShoe1005" productFeatureTypeId="COLOR" productFeatureCategoryId="WShoe1000" description="White" defaultSequenceNum="1"/>
 <ProductFeature productFeatureId="WShoe1006" productFeatureTypeId="COLOR" productFeatureCategoryId="WShoe1000" description="Brown" defaultSequenceNum="1"/>
 <ProductFeature productFeatureId="WShoe1007" productFeatureTypeId="COLOR" productFeatureCategoryId="WShoe1000" description="Red" defaultSequenceNum="1"/>
 <ProductFeature productFeatureId="WShoe1008" productFeatureTypeId="COLOR" productFeatureCategoryId="WShoe1000" description="Black" defaultSequenceNum="1"/>
 
-<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1001" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1002" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1003" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
 
-<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1005" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1006" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1005" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_1" productFeatureId="WShoe1006" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
 
-<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1007" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1008" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1001" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1002" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1007" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WS_2" productFeatureId="WShoe1008" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
 
 
-<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1005" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1006" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1001" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1002" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1003" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1005" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_1" productFeatureId="WShoe1006" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
 
-<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1003" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1007" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1008" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1001" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1002" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1003" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1007" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WF_2" productFeatureId="WShoe1008" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
 
-<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1005" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1006" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1001" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1002" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1005" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_1" productFeatureId="WShoe1006" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
 
-<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1001" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1002" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1007" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
-<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1008" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1001" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1002" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1007" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
+<ProductFeatureAppl productId="WP_2" productFeatureId="WShoe1008" productFeatureApplTypeId="SELECTABLE_FEATURE" fromDate="2022-03-23 13:50:07.796" sequenceNum="1"/>
 
 <ProductPrice productId="WS_1" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
 <ProductPrice productId="WS_2" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
@@ -79,4 +94,18 @@
     
 <ProductCategoryMember productCategoryId="WParty" productId="WP_1" fromDate="2022-03-23 15:09:47.338"/>
 <ProductCategoryMember productCategoryId="WParty" productId="WP_2" fromDate="2022-03-23 15:09:47.338"/>
+
+<ProductPromo productPromoId="1001" promoName="Test Products for Special Promo Price" promoText="With special code [1001] get products in the Featured Products category for their special promotion price." userEntered="Y" showToCustomer="Y" requireCode="Y" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+     
+    <ProductPromoCode productPromoCodeId="1001" productPromoId="1001" userEntered="Y" requireEmailOrParty="N" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+    <ProductPromoRule productPromoId="1001" productPromoRuleId="01" ruleName="Test Special Promo Price"/>
+    <ProductPromoAction productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoActionEnumId="PROMO_PROD_SPPRC" orderAdjustmentTypeId="PROMOTION_ADJUSTMENT"/>
+    <ProductPromoCategory productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productCategoryId="PROMOTIONS" andGroupId="_NA_" productPromoApplEnumId="PPPA_INCLUDE" includeSubCategories="N"/>
+    <ProductStorePromoAppl productStoreId="9000" productPromoId="1001" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
+
+        <ProductPromoProduct productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="WS_1" productPromoApplEnumId="PPPA_INCLUDE"/>
+        
+        <ProductPromoProduct productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="WF_1" productPromoApplEnumId="PPPA_INCLUDE"/>
+         <ProductPromoProduct productPromoId="1001" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="WP_1" productPromoApplEnumId="PPPA_INCLUDE"/>
+
     
