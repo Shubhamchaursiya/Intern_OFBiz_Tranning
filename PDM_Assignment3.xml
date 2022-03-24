@@ -39,20 +39,18 @@
 <ProductPrice productId="C_1" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
 <ProductPrice productId="C_2" productPricePurposeId="PURCHASE" productPriceTypeId="DEFAULT_PRICE" currencyUomId="USD" productStoreGroupId="_NA_" fromDate="2022-03-23 12:55:53.223" price="1" createdDate="2022-03-23 12:55:53.223" createdByUserLogin="admin"/>
 
-
-
 <ProductCategoryMember productCategoryId="Children" productId="C_1" fromDate="2022-03-23 15:09:47.338"/>
 <ProductCategoryMember productCategoryId="Children" productId="C_2" fromDate="2022-03-23 15:09:47.338"/>
-<ProductPromo productPromoId="1002" promoName="Test Products for Special Promo Price" promoText="With special code [1002] get products in the Featured Products category for their special promotion price." userEntered="Y" showToCustomer="Y" requireCode="Y" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
-     
-    <ProductPromoCode productPromoCodeId="1002" productPromoId="1001" userEntered="Y" requireEmailOrParty="N" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
-    <ProductPromoRule productPromoId="1002" productPromoRuleId="01" ruleName="Test Special Promo Price"/>
-    <ProductPromoAction productPromoId="1002" productPromoRuleId="01" productPromoActionSeqId="01" productPromoActionEnumId="PROMO_PROD_SPPRC" orderAdjustmentTypeId="PROMOTION_ADJUSTMENT"/>
-    <ProductPromoCategory productPromoId="1002" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productCategoryId="PROMOTIONS" andGroupId="_NA_" productPromoApplEnumId="PPPA_INCLUDE" includeSubCategories="N"/>
-    <ProductStorePromoAppl productStoreId="9000" productPromoId="1002" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
 
-        <ProductPromoProduct productPromoId="1002" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="C_1" productPromoApplEnumId="PPPA_INCLUDE"/>
+<ProductPromo productPromoId="3000" promoName="Test Products for Special Promo Price" promoText="With special code [1002] get products in the Featured Products category for their special promotion price." userEntered="Y" showToCustomer="Y" requireCode="Y" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+        <ProductPromoCode productPromoCodeId="3000" productPromoId="3000" userEntered="Y" requireEmailOrParty="N" createdDate="2022-03-24 12:00:00.0" createdByUserLogin="admin" lastModifiedDate="2022-03-24 12:00:00.0" lastModifiedByUserLogin="admin"/>
+    <ProductPromoRule productPromoId="3000" productPromoRuleId="01" ruleName="Test Special Promo Price"/>
+    <ProductPromoAction productPromoId="3000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoActionEnumId="PROMO_PROD_SPPRC" orderAdjustmentTypeId="PROMOTION_ADJUSTMENT"/>
+    <ProductPromoCategory productPromoId="3000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productCategoryId="Children" andGroupId="_NA_" productPromoApplEnumId="PPPA_INCLUDE" includeSubCategories="N"/>
+    <ProductStorePromoAppl productStoreId="9000" productPromoId="3000" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
+
+        <ProductPromoProduct productPromoId="3000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="C_1" productPromoApplEnumId="PPPA_INCLUDE"/>
         
-        <ProductPromoProduct productPromoId="1002" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="C_1" productPromoApplEnumId="PPPA_INCLUDE"/>
+        <ProductPromoProduct productPromoId="3000" productPromoRuleId="01" productPromoActionSeqId="01" productPromoCondSeqId="_NA_" productId="C_1" productPromoApplEnumId="PPPA_INCLUDE"/>
     
 
