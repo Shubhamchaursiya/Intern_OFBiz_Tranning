@@ -51,6 +51,6 @@
 <CreditCard paymentMethodId="2021" cardType="CCT_VISA" cardNumber="4242424242424242" expireDate="02/25" firstNameOnCard="Steve" lastNameOnCard="Denis" contactMechId="BILLING0002"/>
 
 <OrderPaymentPreference orderPaymentPreferenceId="1001" orderId="SHUBHAM0002" paymentMethodTypeId="CREDIT_CARD" paymentMethodId="2021" presentFlag="N" swipedFlag="N" overflowFlag="N" processAttempt="1" statusId="PAYMENT_AUTHORIZED" needsNsfRetry="N" createdDate="2022-01-01 16:49:27.966" createdByUserLogin="admin"/>
-<PaymentGatewayResponse paymentGatewayResponseId="1001" orderPaymentPreferenceId="9000" altReference="1250501206473" amount="60.0" currencyUomId="USD" gatewayCode="100" gatewayFlag="A" gatewayMessage="This is a test processor; no payments were captured or authorized." paymentMethodId="2021" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_AUTH" referenceNum="1250501206473" transCodeEnumId="PGT_AUTHORIZE" transactionDate="2022-02-16 14:56:46.498"/>
+<PaymentGatewayResponse paymentGatewayResponseId="1001" orderPaymentPreferenceId="1001" altReference="1250501206473" amount="60.0" currencyUomId="USD" gatewayCode="100" gatewayFlag="A" gatewayMessage="This is a test processor; no payments were captured or authorized." paymentMethodId="2021" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_AUTH" referenceNum="1250501206473" transCodeEnumId="PGT_AUTHORIZE" transactionDate="2022-02-16 14:56:46.498"/>
 
 
