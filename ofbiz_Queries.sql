@@ -426,5 +426,16 @@ Query- SELECT od.ORDER_ID, od.SHIP_GROUP_SEQ_ID, oh.ORDER_NAME, od.CUSTOMER_PART
 
 25- List facilityId and total where total = sum of (orderItem.quantity X orderItem.unitAmount).
 
-Query-
+Query-select sum(OI.QUANTITY * OI.UNIT_AMOUNT) as 'TOTAL', F.FACILITY_ID from order_item_ship_group as OISG
+    -> JOIN facility as F ON F.FACILITY_ID=OISG.FACILITY_ID 
+    -> JOIN order_header as OH ON OISG.ORDER_ID=OH.ORDER_ID 
+    -> JOIN order_item as OI ON OI.ORDER_ID=OH.ORDER_ID group by F.FACILITY_ID;
++-----------------+--------------------+
+| TOTAL           | FACILITY_ID        |
++-----------------+--------------------+
+| 109.93000000000 | RegionalWarehouse1 |
+| 205.85000000000 | RegionalWarehouse2 |
+| 363.74000000000 | WebStoreWarehouse  |
++-----------------+--------------------+
+
 
