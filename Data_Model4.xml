@@ -1,0 +1,73 @@
+<Party partyId="SHUBHAM1004" partyTypeId="PERSON" statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="SHUBHAM1004" statusId="PARTY_ENABLED" statusDate="2022-01-01 12:00:00.0"/>
+<PartyRole partyId="SHUBHAM1004" roleTypeId="CUSTOMER"/>
+
+<Person partyId="SHUBHAM1004" firstName="Patrick" lastName="Gibbons"/>
+
+<OrderHeader orderId="SHUBHAM0004" orderTypeId="SALES_ORDER" orderName="Shubham Order 1" salesChannelEnumId="WEB_SALES_CHANNEL" 
+		orderDate="2022-02-16 13:27:07.024" entryDate="2022-01-01 13:27:07.024" visitId="10000" statusId="ITEM_COMPLETED" createdBy="admin" 
+		currencyUom="USD" productStoreId="9000" remainingSubTotal="60.0" grandTotal="60.0"/>
+
+<OrderItem orderId="SHUBHAM0004" orderItemSeqId="00001" orderItemTypeId="PRODUCT_ORDER_ITEM" productId="WG-1111" prodCatalogId="DemoCatalog" isPromo="N" 
+		   quantity="15.0" selectedAmount="0.0" unitPrice="59.99" unitListPrice="60.0" isModifiedPrice="N" itemDescription="Micro Chrome Widget" statusId="ITEM_COMPLETED"/>
+
+<PartyRole partyId="SHUBHAM1004" roleTypeId="BILL_TO_CUSTOMER"/>
+<PartyRole partyId="SHUBHAM1004" roleTypeId="PLACING_CUSTOMER"/>
+<PartyRole partyId="SHUBHAM1004" roleTypeId="SHIP_TO_CUSTOMER"/> 
+ 
+<OrderRole orderId="SHUBHAM0004" partyId="SHUBHAM1004" roleTypeId="BILL_TO_CUSTOMER"/>
+<OrderRole orderId="SHUBHAM0004" partyId="SHUBHAM1004" roleTypeId="PLACING_CUSTOMER"/>
+<OrderRole orderId="SHUBHAM0004" partyId="SHUBHAM1004" roleTypeId="SHIP_TO_CUSTOMER"/>
+
+<ContactMech contactMechId="SHIPING0004" contactMechTypeId="POSTAL_ADDRESS"/>
+<PostalAddress contactMechId="SHIPING0004" toName="Patrick Gibbons" address1="HotWax Media Inc. 136 S MAIN ST #A200" city="Salt Lake City" postalCode="84101" 
+			   countryGeoId="USA" stateProvinceGeoId="UT"/>
+<PartyContactMech partyId="SHUBHAM1004" contactMechId="SHIPING0004" fromDate="2022-01-01 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1004" contactMechId="SHIPING0004" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2022-01-01 00:00:00.000"/>
+
+<ContactMech contactMechId="BILLING0004" contactMechTypeId="POSTAL_ADDRESS"/>
+<PostalAddress contactMechId="BILLING0004" toName="Patrick Gibbons" address1="HotWax Media Inc. 136 S MAIN ST #A200" city="Salt Lake City" postalCode="84101" 
+			   countryGeoId="USA" stateProvinceGeoId="UT"/>
+<PartyContactMech partyId="SHUBHAM1004" contactMechId="BILLING0004" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1004" contactMechId="BILLING0004" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2022-01-01 00:00:00.000"/>
+
+<ContactMech contactMechId="EMAIL0004" contactMechTypeId="EMAIL_ADDRESS" infoString="patrick@hotwax.com"/>
+<PartyContactMech partyId="SHUBHAM1004" contactMechId="EMAIL0004" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1004" contactMechId="EMAIL0004" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2022-01-01 00:00:00.000"/>
+
+<ContactMech contactMechId="PHONE0004" contactMechTypeId="TELECOM_NUMBER"/>
+<TelecomNumber contactMechId="PHONE0004" areaCode="877" contactNumber="736-4080"/>
+<PartyContactMech partyId="SHUBHAM1004" contactMechId="PHONE0004" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1004" contactMechId="PHONE0004" contactMechPurposeTypeId="PHONE_WORK" fromDate="2022-01-01 00:00:00.000"/>
+
+<OrderContactMech orderId="SHUBHAM0004" contactMechPurposeTypeId="BILLING_LOCATION" contactMechId="BILLING0004"/>
+<OrderContactMech orderId="SHUBHAM0004" contactMechPurposeTypeId="SHIPPING_LOCATION" contactMechId="SHIPING0004"/>
+
+<OrderItemShipGroup orderId="SHUBHAM0004" shipGroupSeqId="00001" shipmentMethodTypeId="GROUND" carrierPartyId="UPS" carrierRoleTypeId="CARRIER" contactMechId="SHIPING0004" maySplit="N" isGift="N"/>
+<OrderItemShipGroupAssoc orderId="SHUBHAM0004" orderItemSeqId="00001" shipGroupSeqId="00001" quantity="15.0"/>
+<OrderItemShipGrpInvRes orderId="SHUBHAM0004" shipGroupSeqId="00001" orderItemSeqId="00001" inventoryItemId="2001" reserveOrderEnumId="INVRO_FIFO_REC" quantity="15.0" quantityNotAvailable="0.0" reservedDatetime="2022-01-01 16:49:31.474" createdDatetime="2022-01-01 16:49:31.474" promisedDatetime="2022-01-01 16:49:27.392" priority="2"/>
+
+<PaymentMethod paymentMethodId="2021" paymentMethodTypeId="CREDIT_CARD" partyId="SHUBHAM1004" fromDate="2022-01-01 00:00:00.000"/>
+<CreditCard paymentMethodId="2021" cardType="CCT_VISA" cardNumber="4242424242424242" expireDate="02/25" firstNameOnCard="Patrick" lastNameOnCard="Gibbons" contactMechId="BILLING0004"/>
+
+<OrderPaymentPreference orderPaymentPreferenceId="9000" orderId="SHUBHAM0004" paymentMethodTypeId="CREDIT_CARD" paymentMethodId="2021" presentFlag="N" swipedFlag="N" overflowFlag="N" processAttempt="1" statusId="PAYMENT_AUTHORIZED" needsNsfRetry="N" createdDate="2022-01-01 16:49:27.966" createdByUserLogin="admin"/>
+<PaymentGatewayResponse paymentGatewayResponseId="1001" orderPaymentPreferenceId="9000" altReference="1250501206473" amount="60.0" currencyUomId="USD" gatewayCode="100" gatewayFlag="A" gatewayMessage="This is a test processor; no payments were captured or authorized." paymentMethodId="2021" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_AUTH" referenceNum="1250501206473" transCodeEnumId="PGT_AUTHORIZE" transactionDate="2022-02-16 14:56:46.498"/>
+
+<InventoryItem facilityId="WebStoreWarehouse" locationSeqId="TLTLTLUL01" datetimeReceived="2022-01-01 08:00:00.000"
+                   inventoryItemId="2001" inventoryItemTypeId="NON_SERIAL_INV_ITEM" productId="WG-1111" ownerPartyId="Company" currencyUomId="USD" unitCost="20.5"/>
+<Picklist picklistId="101011" description="For picker" shipmentMethodTypeId="GROUND" statusId="PICKLIST_ASSIGNED" picklistDate="2022-02-17 16:35:42.707" createdByUserLogin="admin"/>
+<PicklistBin picklistBinId="10101" picklistId="101011" binLocationNumber="8888888888" primaryOrderId="SHUBHAM0004" primaryShipGroupSeqId="00001" picklistItem="10102"/>
+<PicklistItem picklistBinId="10101" orderId="SHUBHAM0004" orderItemSeqId="00001" shipGroupSeqId="00001" inventoryItemId="2001" itemStatusId="ITEM_COMPLETED" quantity="15.0"/>
+
+<Shipment shipmentId="1111" shipmentTypeId="SALES_SHIPMENT" statusId="SHIPMENT_INPUT" primaryOrderId="SHUBHAM0004" primaryShipGroupSeqId="00001" estimatedShipCost="12.45" originFacilityId="WebStoreWarehouse" originContactMechId="BILLING0004" originTelecomNumberId="PHONE0004" destinationContactMechId="BILLING0004" destinationTelecomNumberId="PHONE0004" partyIdTo="SHUBHAM1004" createdDate="2022-02-18 12:59:26.8"/>
+<ShipmentItem shipmentId="1111" shipmentItemSeqId="00011" productId="WG-1111" quantity="15.000000"/>
+<ShipmentContactMech shipmentId="1111" shipmentContactMechTypeId="SHIP_TO_ADDRESS" contectMechId="SHIPING0004"/>
+<InvoiceItem invoiceId="8001" invoiceItemSeqId="00011" invoiceItemTypeId="ITM_SALES_TAX" overrideGlAccountId="224000" productId="WG-1111" parentInvoiceId="8009" parentInvoiceItemSeqId="00001" quantity="15.000000" amount="1.200" description="1% OFB NA Tax" />
+<ShipmentItemBilling shipmentId="1111" shipmentItemSeqId="00011" invoiceId="8001" invoiceItemSeqId="00011"/>
+<ShipmentStatus statusId="SHIPMENT_SHIPPED" shipmentId="1111" statusDate="2022-02-16 16:35:42.707"/>
+
+<OrderShipment orderId="SHUBHAM0004" orderItemSeqId="00001" shipGroupSeqId="00001" shipmentId="1111" shipmentItemSeqId="00011" quantity="15.0"/>
+
+
+
+

@@ -1,0 +1,55 @@
+<Party partyId="SHUBHAM1003" partyTypeId="PERSON" statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="SHUBHAM1003" statusId="PARTY_ENABLED" statusDate="2022-01-01 12:00:00.0"/>
+<PartyRole partyId="SHUBHAM1003" roleTypeId="CUSTOMER"/>
+
+<Person partyId="SHUBHAM1003" firstName="Ben" lastName="Jhonson"/>
+
+<OrderHeader orderId="SHUBHAM0003" orderTypeId="SALES_ORDER" orderName="Shubham Order 1" salesChannelEnumId="WEB_SALES_CHANNEL" 
+		orderDate="2022-02-16 13:27:07.024" entryDate="2022-01-01 13:27:07.024" visitId="10000" statusId="ORDER_CANCELLED" createdBy="admin" 
+		currencyUom="USD" productStoreId="9000" remainingSubTotal="60.0" grandTotal="60.0"/>
+
+<OrderItem orderId="SHUBHAM0003" orderItemSeqId="00001" orderItemTypeId="PRODUCT_ORDER_ITEM" productId="WG-1111" prodCatalogId="DemoCatalog" isPromo="N" 
+		   quantity="20.0" selectedAmount="0.0" unitPrice="59.99" unitListPrice="60.0" isModifiedPrice="N" itemDescription="Micro Chrome Widget" statusId="ORDER_CANCELLED"/>
+
+<PartyRole partyId="SHUBHAM1003" roleTypeId="BILL_TO_CUSTOMER"/>
+<PartyRole partyId="SHUBHAM1003" roleTypeId="PLACING_CUSTOMER"/>
+<PartyRole partyId="SHUBHAM1003" roleTypeId="SHIP_TO_CUSTOMER"/> 
+ 
+<OrderRole orderId="SHUBHAM0003" partyId="SHUBHAM1003" roleTypeId="BILL_TO_CUSTOMER"/>
+<OrderRole orderId="SHUBHAM0003" partyId="SHUBHAM1003" roleTypeId="PLACING_CUSTOMER"/>
+<OrderRole orderId="SHUBHAM0003" partyId="SHUBHAM1003" roleTypeId="SHIP_TO_CUSTOMER"/>
+
+<ContactMech contactMechId="SHIPING0003" contactMechTypeId="POSTAL_ADDRESS"/>
+<PostalAddress contactMechId="SHIPING0003" toName="Ben Jhonson" address1="HotWax Media Inc. 136 S MAIN ST #A200" city="Salt Lake City" postalCode="84101" 
+			   countryGeoId="USA" stateProvinceGeoId="UT"/>
+<PartyContactMech partyId="SHUBHAM1003" contactMechId="SHIPING0003" fromDate="2022-01-01 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1003" contactMechId="SHIPING0003" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2022-01-01 00:00:00.000"/>
+
+<ContactMech contactMechId="BILLING0003" contactMechTypeId="POSTAL_ADDRESS"/>
+<PostalAddress contactMechId="BILLING0003" toName="Ben Jhonson" address1="HotWax Media Inc. 136 S MAIN ST #A200" city="Salt Lake City" postalCode="84101" 
+			   countryGeoId="USA" stateProvinceGeoId="UT"/>
+<PartyContactMech partyId="SHUBHAM1003" contactMechId="BILLING0003" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1003" contactMechId="BILLING0003" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2022-01-01 00:00:00.000"/>
+
+<ContactMech contactMechId="EMAIL0003" contactMechTypeId="EMAIL_ADDRESS" infoString="ben@hotwax.com"/>
+<PartyContactMech partyId="SHUBHAM1003" contactMechId="EMAIL0003" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1003" contactMechId="EMAIL0003" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2022-01-01 00:00:00.000"/>
+
+<ContactMech contactMechId="PHONE0003" contactMechTypeId="TELECOM_NUMBER"/>
+<TelecomNumber contactMechId="PHONE0003" areaCode="877" contactNumber="736-4080"/>
+<PartyContactMech partyId="SHUBHAM1003" contactMechId="PHONE0003" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHUBHAM1003" contactMechId="PHONE0003" contactMechPurposeTypeId="PHONE_WORK" fromDate="2022-01-01 00:00:00.000"/>
+
+<OrderContactMech orderId="SHUBHAM0003" contactMechPurposeTypeId="BILLING_LOCATION" contactMechId="BILLING0003"/>
+<OrderContactMech orderId="SHUBHAM0003" contactMechPurposeTypeId="SHIPPING_LOCATION" contactMechId="SHIPING0003"/>
+
+<OrderItemShipGroup orderId="SHUBHAM0003" shipGroupSeqId="00001" shipmentMethodTypeId="GROUND" carrierPartyId="FEDEX" carrierRoleTypeId="CARRIER" contactMechId="SHIPING0003" maySplit="N" isGift="N"/>
+<OrderItemShipGroupAssoc orderId="SHUBHAM0003" orderItemSeqId="00001" shipGroupSeqId="00001" quantity="20.0"/>
+<OrderItemShipGrpInvRes orderId="SHUBHAM0003" shipGroupSeqId="00001" orderItemSeqId="00001" inventoryItemId="9000" reserveOrderEnumId="INVRO_FIFO_REC" quantity="20.0" quantityNotAvailable="0.0" reservedDatetime="2022-01-01 16:49:31.474" createdDatetime="2022-01-01 16:49:31.474" promisedDatetime="2022-01-01 16:49:27.392" priority="2"/>
+
+<PaymentMethodType paymentMethodTypeId="EXT_COD" defaultGlAccountId="122000"/>
+<PaymentMethod paymentMethodId="2022" paymentMethodTypeId="EXT_COD" partyId="SHUBHAM1003" fromDate="2022-01-01 00:00:00.000"/>
+
+
+
+

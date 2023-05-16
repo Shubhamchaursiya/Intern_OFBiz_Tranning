@@ -1,0 +1,42 @@
+<Party partyId="SHU5000" statusId="PARTY_ENABLED"/>
+<Party partyId="SHU5000" statusId="PARTY_ENABLED" partyTypeId="PERSON"/>
+   
+<PartyRole partyId="SHU5000" roleTypeId="CUSTOMER"/>
+
+<OrderHeader orderId="SHU100" orderTypeId="SALES_ORDER" orderName="Shubham Sales Order 2" salesChannelEnumId="WEB_SALES_CHANNEL" orderDate="2022-02-16 16:49:27.392" entryDate="2022-02-16 16:49:27.392" priority="2" statusId="ORDER_CREATED" createdBy="admin" currencyUom="USD" productStoreId="9000" remainingSubTotal="38.40" grandTotal="50.85"  invoicePerShipment="Y"/>
+
+<OrderItem orderId="SHU100" orderItemSeqId="00001" orderItemTypeId="PRODUCT_ORDER_ITEM" productId="GZ-2644" quantity="2.0"  statusId="ORDER_CREATED"/>
+
+<PartyRole partyId="SHU5000" roleTypeId="BILL_TO_CUSTOMER"/>
+<PartyRole partyId="SHU5000" roleTypeId="PLACING_CUSTOMER"/>
+<PartyRole partyId="SHU5000" roleTypeId="SHIP_TO_CUSTOMER"/> 
+ 
+<OrderRole orderId="SHU100" partyId="SHU5000" roleTypeId="BILL_TO_CUSTOMER"/>
+<OrderRole orderId="SHU100" partyId="SHU5000" roleTypeId="PLACING_CUSTOMER"/>
+<OrderRole orderId="SHU100" partyId="SHU5000" roleTypeId="SHIP_TO_CUSTOMER"/>
+
+<ContactMech contactMechId="SHIP5000" contactMechTypeId="POSTAL_ADDRESS"/>
+<PostalAddress contactMechId="SHIP5000" toName="Mark Tailor" address1="HotWax Media Inc. 
+136 S MAIN ST #A200" city="Salt Lake City" postalCode="84101" countryGeoId="USA" stateProvinceGeoId="UT"/>
+<PartyContactMech partyId="SHU5000" contactMechId="SHIP5000" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>   
+<PartyContactMechPurpose partyId="SHU5000" contactMechId="SHIP5000" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2001-05-13 00:00:00.000"/>
+    
+<ContactMech contactMechId="BILL5000" contactMechTypeId="POSTAL_ADDRESS"/>
+<PostalAddress contactMechId="BILL5000" toName="Mark Tailor" address1="HotWax Media Inc. 
+136 S MAIN ST #A200" city="Salt Lake City" postalCode="84101" countryGeoId="USA" stateProvinceGeoId="UT"/>
+<PartyContactMech partyId="SHU5000" contactMechId="BILL5000" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>   
+<PartyContactMechPurpose partyId="SHU5000" contactMechId="BILL5000" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2001-05-13 00:00:00.000"/>
+    
+<ContactMech contactMechId="EMAIL5000" contactMechTypeId="EMAIL_ADDRESS" infoString="mark.tailor@hotwaxmedia.com"/>
+<PartyContactMech partyId="SHU5000" contactMechId="EMAIL5000" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHU5000" contactMechId="EMAIL5000" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2001-05-13 00:00:00.000"/>
+
+<ContactMech contactMechId="PHONE5000" contactMechTypeId="TELECOM_NUMBER"/>
+<TelecomNumber contactMechId="PHONE5000" areaCode="877" contactNumber="736-4080"/>
+<PartyContactMech partyId="SHU5000" contactMechId="PHONE5000" fromDate="2001-05-13 00:00:00.000" allowSolicitation="Y"/>
+<PartyContactMechPurpose partyId="SHU5000" contactMechId="PHONE5000" contactMechPurposeTypeId="PHONE_WORK" fromDate="2001-05-13 00:00:00.000"/>
+
+<OrderContactMech orderId="SHU100" contactMechPurposeTypeId="BILLING_LOCATION" contactMechId="BILL5000"/>
+<OrderContactMech orderId="SHU100" contactMechPurposeTypeId="SHIPPING_LOCATION" contactMechId="SHIP5000"/>
+
+
